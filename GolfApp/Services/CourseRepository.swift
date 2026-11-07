@@ -53,10 +53,14 @@ final class CourseRepository {
                       let data = try? Data(contentsOf: url),
                       let list = try? Course.decodeList(from: data) else { return [] }
                 // Fairways / bunkers / water auto-traced from open aerial imagery (Tools/autotrace).
-                guard let aURL = Bundle.main.url(forResource: "aerial_tw", withExtension: "json"),
-                      let aData = try? Data(contentsOf: aURL),
-                      let aerial = try? JSONDecoder().decode(AerialFeatureSet.self, from: aData) else { return list }
-                return aerial.apply(to: list)
+                var withAerial = list
+                if let aURL = Bundle.main.url(forResource: "aerial_tw", withExtension: "json"),
+                   let aData = try? Data(contentsOf: aURL),
+                   let aerial = try? JSONDecoder().decode(AerialFeatureSet.self, from: aData) {
+                    withAerial = aerial.apply(to: list)
+                }
+                // Courses with mapped greens but no OSM holes: one hole per green, pin at its center.
+                return HoleSynthesizer.apply(to: withAerial)
             }()
             let feat = Self.loadFeatured(bundle: .main)
             DiagnosticsService.recordTiming("courses.load", seconds: Date().timeIntervalSince(started))
