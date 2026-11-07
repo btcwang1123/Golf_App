@@ -1,0 +1,111 @@
+{
+  "sourceLanguage" : "zh-Hant",
+  "strings" : {
+    "回合" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Round"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回合"
+          }
+        }
+      }
+    },
+    "洞號與到果嶺距離" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hole number and distance to the green"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "洞號與到果嶺距離"
+          }
+        }
+      }
+    },
+    "第 %@ 洞 · %@ 桿" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "第 %1$@ 洞 · %2$@ 桿"
+          }
+        }
+      }
+    },
+    "第 %@ 洞 %@%@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "第 %1$@ 洞 %2$@%3$@"
+          }
+        }
+      }
+    },
+    "第 %lld 洞 · %lld 桿" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hole %lld · %lld strokes"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第 %lld 洞 · %lld 桿"
+          }
+        }
+      }
+    },
+    "第 %lld 洞 %@%@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hole %lld %@%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第 %lld 洞 %@%@"
+          }
+        }
+      }
+    },
+    "開始回合" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Round"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始回合"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

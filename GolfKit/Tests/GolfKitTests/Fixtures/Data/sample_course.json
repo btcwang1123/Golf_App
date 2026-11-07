@@ -1,0 +1,26 @@
+[
+  {
+    "id": "osm-way-12345",
+    "name": "Test Golf Club",
+    "county": "Taoyuan",
+    "center": {"lat": 25.0, "lon": 121.3},
+    "source": "osm",
+    "features": [
+      {"kind": "water", "polygon": [{"lat": 25.0001, "lon": 121.3001}, {"lat": 25.0002, "lon": 121.3001}, {"lat": 25.0002, "lon": 121.3002}]}
+    ],
+    "holes": [
+      {
+        "number": 1, "par": 4, "handicap": 7,
+        "tee": {"lat": 25.0, "lon": 121.3},
+        "greenCenter": {"lat": 25.003, "lon": 121.3},
+        "green": [{"lat": 25.0029, "lon": 121.2999}, {"lat": 25.0029, "lon": 121.3001}, {"lat": 25.0031, "lon": 121.3001}, {"lat": 25.0031, "lon": 121.2999}],
+        "path": [{"lat": 25.0, "lon": 121.3}, {"lat": 25.003, "lon": 121.3}],
+        "features": [{"kind": "fairway", "polygon": [{"lat": 25.001, "lon": 121.2998}, {"lat": 25.001, "lon": 121.3002}, {"lat": 25.002, "lon": 121.3002}, {"lat": 25.002, "lon": 121.2998}]}]
+      },
+      {
+        "number": 2,
+        "path": [{"lat": 25.004, "lon": 121.3}, {"lat": 25.006, "lon": 121.3}]
+      }
+    ]
+  }
+]

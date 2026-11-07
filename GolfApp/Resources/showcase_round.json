@@ -1,0 +1,15 @@
+{
+  "courseId": "featured-taiwan-golf-club",
+  "friends": [
+    { "name": "阿明", "handicap": 12 },
+    { "name": "小美", "handicap": 20 }
+  ],
+  "holes": [
+    { "number": 1, "shots": [0.0, 0.63], "lateral": [0, 9], "putts": 2, "friendScores": [5, 6] },
+    { "number": 2, "shots": [0.0, 0.58, 0.9], "lateral": [0, -7, 4], "putts": 1, "friendScores": [4, 5] },
+    { "number": 3, "shots": [0.0], "lateral": [0], "putts": 2, "friendScores": [3, 4] }
+  ],
+  "walkSpeed": 38,
+  "clubs": { "driver": 215, "i7": 138, "i8": 128, "pw": 105, "w5": 185 },
+  "wind": { "fromDeg": 20, "speed": 3.5, "temperatureC": 27 }
+}
